@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.left-panel {
+    width: 35vw;
+    background-image: url(images/Background\ Picture\ B&W.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.651);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 300px;
+}
+
+.logo img {
+    height: 100%;
+    padding: 10px;
+}
+
+.logo h1 {
+    font-family: Rubik Doodle Shadow;
+    font-size: 5rem;
+    color: #c6d5db;
+}
+
+.right-panel {
+    width: 65vw;
+    background-color: #ffffff;
+}
