@@ -32,7 +32,7 @@ body {
 .logo h1 {
     font-family: Rubik Doodle Shadow;
     font-size: 5rem;
-    color: #c6d5db;
+    color: #afcfdd;
 }
 
 .right-panel {
@@ -49,5 +49,31 @@ body {
     background-color: #ffffff;
     border: 5px;
     margin-top: 250px;
-    box-shadow: 0px 2px 8px 0px rgb(121, 121, 121);
+    box-shadow: 0px 2px 6px 0px rgb(180, 180, 180);
+}
+
+.form-container h2 {
+    font-size: 32px;
+    color:black;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 15px 10px 10px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(124, 124, 124);
 }
