@@ -26,6 +26,7 @@ body {
 .logo img {
     height: 100%;
     padding: 10px;
+    opacity: .9;
 }
 
 .logo h1 {
@@ -37,4 +38,16 @@ body {
 .right-panel {
     width: 65vw;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    height: 450px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 5px;
+    margin-top: 250px;
+    box-shadow: 0px 2px 8px 0px rgb(121, 121, 121);
 }
