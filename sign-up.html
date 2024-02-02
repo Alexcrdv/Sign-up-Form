@@ -15,6 +15,9 @@
             <img src="images/Reminder Logo.svg" alt="RemindNote Logo">
             <h1>RemindNote</h1>
         </div>
+        <p class = "credits">
+            Photo by <a href="https://unsplash.com/photos/apple-wireless-keyboard-on-white-surface-n205UbNhy7E">Marissa Grootes</a> on <a href="https://unsplash.com/">Unsplash</a>
+        </p>
     </div>
     <div class="right-panel">
         <div class="form-container">
@@ -22,27 +25,27 @@
             <form action="#" method="post">
                 <div>
                     <label for="first-name">First Name</label>
-                    <input type="text" name ="first_name" id="first_name">
+                    <input type="text" name ="first_name" id="first_name" placeholder="First Name" required maxlength="20" minlength="3">
                 </div>
                 <div>
                     <label for="last-name">Last Name</label>
-                    <input type="text" name ="last_name" id="last_name">
+                    <input type="text" name ="last_name" id="last_name" placeholder="Last Name" required maxlength="20" minlength="3">
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input type="text" name ="email" id="email">
+                    <input type="email" name ="email" id="user_email" placeholder="Email" required maxlength="20" minlength="5">
                 </div>
                 <div>
                     <label for="phone-number">Phone Number</label>
-                    <input type="text" name ="phone-number" id="phone-number">
+                    <input type="text" name ="phone-number" id="phone-number" placeholder="Phone Number" required maxlength="10" minlength="10">
                 </div>
                 <div>
                     <label for="password">Password</label>
-                    <input type="text" name ="password" id="password">
+                    <input type="password" name ="password" id="password" placeholder="Password" required maxlength="20" minlength="8">
                 </div>
                 <div>
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="text" name ="confirm-password" id="confirm-password">
+                    <input type="password" name ="confirm-password" id="confirm-password" placeholder="Confirm Password" required maxlength="20" minlength="8"> 
                 </div>
                 <div>
                     <button type="submit">Create Account</button>
